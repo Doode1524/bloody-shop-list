@@ -1,9 +1,10 @@
 import './App.css';
+import ShopTable from './components/ShopTable';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <ShopTable />
     </div>
   );
 }
